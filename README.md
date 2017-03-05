@@ -1,4 +1,8 @@
-Some music exersices described in lylipond language
+Some music exersices described in lilypond language
 http://lilypond.org
 
-http://lilypond.org/doc/v2.18/Documentation/
+http://lilypond.org/website/manuals.html
+
+http://lilypond.org/doc/v2.18/Documentation/usage/
+
+http://lilypond.org/doc/v2.18/Documentation/notation/

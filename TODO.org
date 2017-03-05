@@ -1,0 +1,10 @@
+* setup emacs for lilypond files
+http://lilypond.org/doc/v2.19/Documentation/usage/text-editor-support.html#emacs-mode
+
+* r_pauls_1
+
+** Makefile to build pdf and midi
+
+** 3,4 tacts
+
+** 5,6 tacts

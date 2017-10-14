@@ -3,8 +3,7 @@ http://lilypond.org
 
 http://lilypond.org/website/manuals.html
 
-http://lilypond.org/doc/v2.18/Documentation/usage/
-
+http://lilypond.org/doc/v2.18/Documentation/learning/simple-notation
 http://lilypond.org/doc/v2.18/Documentation/notation/
 
 

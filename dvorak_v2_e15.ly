@@ -40,5 +40,10 @@
 
 
   \layout { }
-  \midi { }
+  \midi {
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
+  }
 }

@@ -2,14 +2,6 @@
 
 http://lilypond.org/doc/v2.19/Documentation/usage/text-editor-support.html#emacs-mode
 
-* midi в piano booster
-
-есть 2 проблемы:
-+ каждый score (линия) сохраняется в отдельный midi-файл.
-  видимо нужно делать всю пьесу в одном score. Но как разделяются линии?
-
-- upper и lower Staff идут в разные каналы. А мне нужно в одном канале, но в разные руки.
-
 * dvorak_v2_e15
 ** 17-20
 ** 21-24

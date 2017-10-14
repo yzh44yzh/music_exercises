@@ -2,8 +2,8 @@
 \version "2.18.2"
 
 \header {
-  title = "Этюд"
-  composer = "Милан Дворжак"
+  title = "COMPLETE JAZZ PIANO ETUDES. Volume Two. Etude No. 15 Con moto."
+  composer = "Milan DVOŘÁK"
 }
 
 upper = \relative c' {

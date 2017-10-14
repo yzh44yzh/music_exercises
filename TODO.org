@@ -3,8 +3,6 @@ http://lilypond.org/doc/v2.19/Documentation/usage/text-editor-support.html#emacs
 
 * dvorak
 
-** выяснить, какой это этюд
-
 ** 3 такт
 
 ** 2 линия: 4,5,6 такт

@@ -14,14 +14,18 @@
       \key a \major
       \time 4/4
       \tempo "Con moto"
+
       r4\mf <cis e a>4 r8 <cis fis a>8 r4 | r4 <d fis a>4~ <d fis a>8 <e gis b>4. |
       r4\p <cis e a>4 r8 <cis fis a>8 r4 | r4 <d fis a>4~ <d fis a>8 <e gis b>4. |
+
       r4\mp <cis a'>8 <cis a'> <cis a'> <cis a'> <cis fis> <fis a>~ | <fis a>8 <fis b>4. r4 <gis d'>8^ [<a cis>8]~ |
       <a cis>4 <a cis>8 <fis a>8~ <fis a>4 <fis a>8 <fis b>8~ | <fis b>2 gis2 |
+
       r8 <cis, a'>\noBeam <cis a'> (fis) <cis a'> <cis a'> <cis fis> <fis a>~ | <fis a>8 <fis b>4. r4 <gis d'>8^ [<a cis>8]~ |
       <a cis>4 <a cis>8 <fis a>8~ <fis a>4 <fis a>8 <fis b>8~ | <fis b>2 gis2 |
+
       <a d fis>4--\mf <a d fis>-- <a d fis>8 [(e')]\noBeam <fis, a d> <e gis cis>~ |
-      <e gis cis>8 <e gis b>4.~ <e gis b>4 << { cis'8 d~ | d2. cis8 b } \\ { <e, gis>4 | <e gis>1 }  >> <fis a>1 |
+      <e gis cis>8 <e gis b>4.~ <e gis b>4 << { cis'8 d~ | e2. cis8 b } \\ { <e, gis>4 | <e gis>1 }  >> <fis a>1 |
     }
     \new Staff = "lower" \relative c {
       \clef bass

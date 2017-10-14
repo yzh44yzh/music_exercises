@@ -34,14 +34,58 @@
     \new Staff = "upper" \relative c' {
       \clef treble
       \key a \major
-      r4\mp <cis a'>8 <cis a'> <cis a'> <cis a'> <cis fis> <fis a>~ | <fis a>8 <fis b>4. r4 <gis d'>8^ [<a cis>8]~ |
-      <a cis>4 <a cis>8 <fis a>8~ <fis a>4 <fis a>8 <fis b>8~ | <fis b>2 gis2 |
+      r4\mp <cis a'>8 <cis a'> <cis a'> <cis a'> <cis fis> <fis a>~ |
+      <fis a>8 <fis b>4. r4 <gis d'>8^ [<a cis>8]~ |
+      <a cis>4 <a cis>8 <fis a>8~ <fis a>4 <fis a>8 <fis b>8~ |
+      <fis b>2 gis2 |
     }
     \new Staff = "lower" \relative c {
       \clef bass
       \key a \major
       a8 e' a e  fis, cis' fis cis | d,8 a' d a e b' e b |
       a8 e' a e  fis, cis' fis cis | d,8 a' d a e b' e b |
+    }
+  >>
+  \layout { }
+  \midi { }
+}
+
+\score {
+  \new PianoStaff <<
+    \new Staff = "upper" \relative c' {
+      \clef treble
+      \key a \major
+      r8 <cis a'>\noBeam <cis a'> (fis) <cis a'> <cis a'> <cis fis> <fis a>~ |
+      <fis a>8 <fis b>4. r4 <gis d'>8^ [<a cis>8]~ |
+      <a cis>4 <a cis>8 <fis a>8~ <fis a>4 <fis a>8 <fis b>8~ |
+      <fis b>2 gis2 |
+    }
+    \new Staff = "lower" \relative c {
+      \clef bass
+      \key a \major
+      a8 e' a e  fis, cis' fis cis | d,8 a' d a e b' e b |
+      a8 e' a e  fis, cis' fis cis | d,8 a' d a e b' e b |
+    }
+  >>
+  \layout { }
+  \midi { }
+}
+
+
+\score {
+  \new PianoStaff <<
+    \new Staff = "upper" \relative c' {
+      \clef treble
+      \key a \major
+      <a' d fis>4--\mf <a d fis>-- <a d fis>8 [(e')]\noBeam <fis, a d> <e gis cis>~ |
+      <e gis cis>8 <e gis b>4.~ <e gis b>4 << { cis'8 d~ | d2. cis8 b } \\ { <e, gis>4 | <e gis>1 }  >>
+      <fis a>1 |
+    }
+    \new Staff = "lower" \relative c {
+      \clef bass
+      \key a \major
+      d,8 d' d, d' d, d' d, d' | e,8 e' e, e' e, e' e, d |
+      cis8 cis' cis, cis' cis, cis' cis, cis' | fis,8 fis\< a b\! bis\> cis a fis\! |
     }
   >>
   \layout { }

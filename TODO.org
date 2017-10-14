@@ -5,8 +5,6 @@ http://lilypond.org/doc/v2.19/Documentation/usage/text-editor-support.html#emacs
 
 * dvorak_v2_e15
 ** попробовать midi в piano booster
-** 9-12
-** 13-16
 ** 17-20
 ** 21-24
 ** 25-28

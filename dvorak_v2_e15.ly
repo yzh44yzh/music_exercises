@@ -25,20 +25,30 @@
       <a cis>4 <a cis>8 <fis a>8~ <fis a>4 <fis a>8 <fis b>8~ | <fis b>2 gis2 |
 
       <a d fis>4--\mf <a d fis>-- <a d fis>8 [(e')]\noBeam <fis, a d> <e gis cis>~ |
-      <e gis cis>8 <e gis b>4.~ <e gis b>4 << { cis'8 d~ | e2. cis8 b } \\ { <e, gis>4 | <e gis>1 }  >> <fis a>1 |
+      <e gis cis>8 <e gis b>4.~ <e gis b>4 << { cis'8 d | e2. cis8 b } \\ { <e, gis>4 | <e gis>1 }  >> <fis a>1 |
+
+      <a d fis>4-- <a d fis>-- <a d fis>8 [(e')]\noBeam <fis, a d> <e gis cis>~ |
+      <e gis cis>8 <e gis b>4.~ <e gis b>4 << { cis'8 d | cis2. d8 cis | b4\> a gis b\! | } \\ { <e, gis>4 | <fis a>1 | <e e'>1 }  >>
     }
     \new Staff = "lower" \relative c {
       \clef bass
       \key a \major
       \time 4/4
+
       a8 e' a e  fis, cis' fis cis | d,8 a' d a e b' e b |
       a8 e' a e  fis, cis' fis cis | d,8 a' d a e b' e b |
+
       a8 e' a e  fis, cis' fis cis | d,8 a' d a e b' e b |
       a8 e' a e  fis, cis' fis cis | d,8 a' d a e b' e b |
+
       a8 e' a e  fis, cis' fis cis | d,8 a' d a e b' e b |
       a8 e' a e  fis, cis' fis cis | d,8 a' d a e b' e b |
+
       d,8 d' d, d' d, d' d, d' | e,8 e' e, e' e, e' e, d |
       cis8 cis' cis, cis' cis, cis' cis, cis' | fis,8 fis\< a b\! bis\> cis a fis\! |
+
+      d8 d' d, d' d, d' d, d' | e,8 e' e, e' e, e' e, e' |
+      fis,8 fis' fis, fis' fis, fis' fis, fis' | gis,8 gis' fis, fis' e, e' e, e' |
     }
   >>
 

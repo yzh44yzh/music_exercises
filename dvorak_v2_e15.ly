@@ -51,7 +51,7 @@
       \break
 
       << { r4 <cis e a>8 <cis e a> <b e gis> <b e gis> <gis cis e> <a d fis>~ | <a d fis>2 <b e> | } \\ { a2 r2 | r2 a4( gis) } >>
-      << { <e a>1~ | <cis e a>2.\p r4 | } \\ { cis4 b8 cis( cis) b cis b | } >>
+      << { <e a>1~ | <cis e a>2.\p r4 | } \\ { cis4 b8 cis~ cis b cis b | } >>
       \break
     }
 

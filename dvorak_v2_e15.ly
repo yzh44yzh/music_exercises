@@ -36,6 +36,9 @@
 
       <a cis>4 <a cis>8 <fis a>~ <fis a>4 <fis a>8 <fis b>~ | <fis b>2 gis4 r8 a8 |
       << { r4 <cis e a>8 <cis e a> <b e gis> <b e gis> <gis cis e> <a d fis>~ | <a d fis>2 <b e> | } \\ { a2 r2 | r2 a4( gis) } >>
+
+      << { r4 <cis e a>8 <cis e a> <b e gis> <b e gis> <gis cis e> <a d fis>~ | <a d fis>2 <b e> | } \\ { a2 r2 | r2 a4( gis) } >>
+      << { <e a>1~ | <cis e a>2.\p r4 | } \\ { cis4 b8 cis( cis) b cis b | } >>
     }
 
     \new Staff = "lower" \relative c {
@@ -63,6 +66,9 @@
 
       a8 e' a e fis, cis' fis cis | d, a' d a e b' e4 |
       a2 cis4. d8~ | d4 d,16 cis d dis e2 |
+
+      a2 cis4. d8~ | d4 d,16 cis d dis e2 |
+      <a, e'>1~ | <a e'>2. r4 |
     }
   >>
 

@@ -3,10 +3,9 @@
 http://lilypond.org/doc/v2.19/Documentation/usage/text-editor-support.html#emacs-mode
 
 * dvorak_v2_e15
-** line 8, 29-32
 ** 27 decresc.
 ** 28 и 30 что там в басах на 16 нотах с диезом?
-** настроить все в целом, чтобы выглядело красиво
+** настроить все в целом, чтобы выглядело красиво -- 2 страницы, 8 строк по 4 такта
 
 * r_pauls_1
 

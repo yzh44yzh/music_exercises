@@ -9,6 +9,7 @@
 
 \score {
   \new PianoStaff <<
+
     \new Staff = "upper"\relative c' {
       \clef treble
       \key a \major
@@ -29,7 +30,11 @@
 
       <a d fis>4-- <a d fis>-- <a d fis>8 [(e')]\noBeam <fis, a d> <e gis cis>~ |
       <e gis cis>8 <e gis b>4.~ <e gis b>4 << { cis'8 d | cis2. d8 cis | b4\> a gis b\! | } \\ { <e, gis>4 | <fis a>1 | <e e'>1 }  >>
+
+      r4\mp <cis a'>8 <cis a'> <cis a'> <cis a'> <cis fis> <fis a>~ | <fis a>8 <fis b>4. r4 <gis d'>8^ [<a cis>8]~ |
+      <a cis>4 <a cis>8 <fis a>8~ <fis a>4 <fis a>8 <fis b>8~ | <fis b>2 gis4 <gis d'>8 <a cis> |
     }
+
     \new Staff = "lower" \relative c {
       \clef bass
       \key a \major
@@ -49,9 +54,11 @@
 
       d8 d' d, d' d, d' d, d' | e,8 e' e, e' e, e' e, e' |
       fis,8 fis' fis, fis' fis, fis' fis, fis' | gis,8 gis' fis, fis' e, e' e, e' |
+
+      a,8 e' a e  fis, cis' fis cis | d,8 a' d a e b' e b |
+      a8 e' a e  fis, cis' fis cis | d,8 a' d a e b' e b |
     }
   >>
-
 
   \layout { }
   \midi {

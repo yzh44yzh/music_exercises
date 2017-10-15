@@ -3,10 +3,9 @@
 http://lilypond.org/doc/v2.19/Documentation/usage/text-editor-support.html#emacs-mode
 
 * dvorak_v2_e15
-** 17-20
-** 21-24
-** 25-28
-** 29-32
+** line 6, 21-24
+** line 7, 25-28
+** line 8, 29-32
 
 * r_pauls_1
 

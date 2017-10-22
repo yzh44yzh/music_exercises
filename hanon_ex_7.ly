@@ -31,6 +31,10 @@
       \stemDown
       g16-1 b a c b d c-4 b | a16-1 c b d c e d-4 c | b16-1 d c e d f e-4 d |
       \break
+
+      g16-5 e-3 f-4 d-2 e-3 c-1 d-3 e-4 | f16-5 d e c d b c-3 d | e16-5 c d b c a b-3 c  |
+      d16-5 b c a b g a-3 b | \stemUp c16-5 a b g a f g-3 a |
+      \break
     }
 
     \new Staff = "lower" \relative c {
@@ -52,6 +56,10 @@
 
       e16-5 g f a g b a-3 g | f16-5 a g b a c b-3 a | g16-5 b a c b d c-3 b |
       a16-5 c b d c e d-3 c | b16-5 d c e d f e-3 d |
+      \break
+
+      g16-1 e-3 f-2 d-4 e-3 c-5 d-4 e-3 | f16-1 d e c d b-5 c-4 d | e16-1 c d b c a b c |
+      d16-1 b c a b g a b | c16-1 a b g a f g a |
       \break
     }
   >>

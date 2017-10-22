@@ -1,8 +1,8 @@
 \version "2.18.2"
 
 \paper {
-  top-margin = 25
-  bottom-margin = 25
+  top-margin = 15
+  bottom-margin = 10
   left-margin = 20
   right-margin = 20
 }
@@ -35,6 +35,14 @@
       g16-5 e-3 f-4 d-2 e-3 c-1 d-3 e-4 | f16-5 d e c d b c-3 d | e16-5 c d b c a b-3 c  |
       d16-5 b c a b g a-3 b | \stemUp c16-5 a b g a f g-3 a |
       \break
+
+      b16-5 g a f g e f-3 g | a16-5 f g e f d e-3 f | g16-5 e f d e c d-3 e |
+      f16-5 d e c d b c-3 d | e16-5 c d b c a b-3 c |
+      \break
+
+      r2 | r2 | r2 | r2 \set Score.repeatCommands = #'(end-repeat)
+      r2 |
+      \break
     }
 
     \new Staff = "lower" \relative c {
@@ -60,6 +68,18 @@
 
       g16-1 e-3 f-2 d-4 e-3 c-5 d-4 e-3 | f16-1 d e c d b-5 c-4 d | e16-1 c d b c a b c |
       d16-1 b c a b g a b | c16-1 a b g a f g a |
+      \break
+
+      b16-1 g a f g e f g | a16-1 f g e f d e f | g16-1 e f d e c d e |
+      f16-1 d e c d b c d | \stemUp e16-1 c d b c a b c |
+      \break
+
+      << { d'16-5 b c a b g a-3 b } \\ { d,16-1 b c a b g a b } >> |
+      << { c'16-5 a b g a f g-3 a } \\ { c,16-1 a b g a f g a } >> |
+      << { b'16-5 g a f g e f-3 g } \\ { b,16-1 g a f g e f g } >> |
+      << { a'16-5 f g e f d e-3 f } \\ { a,16-1 f g e f d e-3 f } >>
+      \set Score.repeatCommands = #'(end-repeat)
+      << { c'2 } \\ { c,2 } >> |
       \break
     }
   >>

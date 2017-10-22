@@ -1,5 +1,3 @@
-* hanon_ex_7
-
 * hanon_ex_8
 
 * dvorak_v2_e6

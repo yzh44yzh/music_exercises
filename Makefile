@@ -1,2 +1,2 @@
 dvorak:
-	lilypond --pdf dvorak_v2_e15.ly
+	lilypond --pdf hanon_ex_7.ly

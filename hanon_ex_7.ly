@@ -26,6 +26,11 @@
 
       r2 | r2 | b16-1 d c e d f e-4 d | c16-1 e d f e g f-4 e | d16-1 f e g f a g-4 f |
       \break
+
+      e16-1 g f a g b a-4 g | f16-1 a g b a c b-4 a |
+      \stemDown
+      g16-1 b a c b d c-4 b | a16-1 c b d c e d-4 c | b16-1 d c e d f e-4 d |
+      \break
     }
 
     \new Staff = "lower" \relative c {
@@ -39,9 +44,14 @@
       << { f'16-1 a g b a c b-4 a } \\ { f,16-5 a g b a c b-3 a } >> |
       \break
 
+      \stemDown
       << { g'16-1 b a c b d c-4 b } \\ { g,16-5 b a c b d c-3 b } >> |
       << { a'16-1 c b d c e d-4 c } \\ { a,16-5 c b d c e d-3 c } >> |
       b16-5 d c e d f e-3 d | c16-5 e d f e g f-3 e | d16-5 f e g f a g-3 f |
+      \break
+
+      e16-5 g f a g b a-3 g | f16-5 a g b a c b-3 a | g16-5 b a c b d c-3 b |
+      a16-5 c b d c e d-3 c | b16-5 d c e d f e-3 d |
       \break
     }
   >>

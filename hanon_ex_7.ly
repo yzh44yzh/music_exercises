@@ -40,7 +40,7 @@
       f16-5 d e c d b c-3 d | e16-5 c d b c a b-3 c |
       \break
 
-      r2 | r2 | r2 | r2 \set Score.repeatCommands = #'(end-repeat)
+      r2 | r2 | r2 | r2 \bar ":|."
       r2 |
       \break
     }
@@ -78,7 +78,6 @@
       << { c'16-5 a b g a f g-3 a } \\ { c,16-1 a b g a f g a } >> |
       << { b'16-5 g a f g e f-3 g } \\ { b,16-1 g a f g e f g } >> |
       << { a'16-5 f g e f d e-3 f } \\ { a,16-1 f g e f d e-3 f } >>
-      \set Score.repeatCommands = #'(end-repeat)
       << { c'2 } \\ { c,2 } >> |
       \break
     }

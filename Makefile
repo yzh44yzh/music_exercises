@@ -1,2 +1,2 @@
 dvorak:
-	lilypond --pdf shainsky.ly
+	lilypond --pdf scarborough_fair.ly
